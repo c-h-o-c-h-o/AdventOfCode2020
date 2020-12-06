@@ -21,7 +21,6 @@ with open('Day5.csv', newline='') as csvfile:
 #The final R keeps the upper of the two, column 5.
 
 # Part 1.
-
 for i in range(len(data)):
     data[i] = ''.join(data[i])
 
