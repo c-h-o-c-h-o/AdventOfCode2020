@@ -1,8 +1,8 @@
 with open('Day6.txt', 'r') as data:
     data_str = data.read()
     data_array = data_str.split('\n\n')
-
-#print(data_array)
+print(data_str)
+print(data_array)
 
 new_data = data_array
 for i in range(len(data_array)):
